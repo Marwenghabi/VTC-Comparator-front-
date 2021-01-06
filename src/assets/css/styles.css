@@ -1346,6 +1346,8 @@ section.featured.rec-pro {
     color: #8731E8;
 }
 
+
+
 .homepage-1 .popular .homes-content h3:hover,
 .homepage-1 .blog-section .news-item h3:hover,
 .homepage-1 .widget.quick-link ul li a:hover,
@@ -3164,10 +3166,10 @@ section.popular.portfolio {
 
 .popular .footer {
     background: none;
-    border-top: 1px solid #ebebeb;
+    border-top: 1px solid #f1ebeb;
     padding-top: 1rem;
     font-size: 14px;
-    color: #666;
+    color: rgb(255, 255, 255);
 }
 
 .popular .footer img {
@@ -3209,7 +3211,7 @@ section.popular.portfolio {
 }
 
 .popular .footer a {
-    color: #666;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -6293,7 +6295,7 @@ a.button {
 .int_dark_bg .first-footer .bloq-email .email input[type="email"],
 .int_dark_bg .first-footer .bloq-email .email input[type="submit"] {
     border: 1px solid #c18847;
-    background: #282d32;
+    background: #fdfeff;
     color: #fff;
 }
 
@@ -9368,7 +9370,7 @@ section.visited-cities {
     display: inline-block;
     margin-right: 14px;
     font-size: 14px;
-    color: #666;
+    color: rgb(255, 255, 255);
     font-weight: 400;
 }
 
@@ -9891,8 +9893,8 @@ section.visited-cities {
 /*-----------------------------------*/
 
 .first-footer .top-footer {
-    background: rgba(18, 27, 34, 0.98);
-    color: #fff;
+    background: rgba(252, 252, 252, 0.98);
+    color: rgb(8, 8, 8);
     padding: 6rem 0;
 }
 
@@ -9929,7 +9931,7 @@ section.visited-cities {
 .first-footer .netabout p {
     margin-bottom: 2rem;
     font-weight: 400;
-    color: #fff;
+    color: rgb(32, 29, 29);
 }
 
 .first-footer .netsocials {
@@ -9996,7 +9998,7 @@ section.visited-cities {
 
 .first-footer h3 {
     margin-bottom: 2rem;
-    color: #fff;
+    color: rgb(24, 22, 22);
 }
 
 .first-footer .contactus h3::after {
@@ -10035,7 +10037,7 @@ section.visited-cities {
 .first-footer .contactus .info p {
     margin: 0px;
     font-size: .9rem;
-    color: #fff;
+    color: rgb(26, 24, 24);
     margin-left: 1rem;
     line-height: 1.1;
     font-weight: 300;
@@ -10075,7 +10077,7 @@ section.visited-cities {
 .widget.quick-link ul li a {
     padding-left: 0px;
     padding-bottom: .9rem;
-    color: #fff;
+    color: rgb(24, 23, 23);
     text-decoration: none;
     display: block;
     -webkit-transition: all .5s ease;
@@ -10091,7 +10093,7 @@ section.visited-cities {
     font-family: "FontAwesome";
     font-size: 16px;
     padding-right: 1rem;
-    color: #fff;
+    color: rgb(27, 27, 27);
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
@@ -10192,7 +10194,7 @@ section.visited-cities {
 
 .newsletters p {
     margin-bottom: 2rem;
-    color: #fff;
+    color: rgb(32, 32, 32);
     font-weight: 300;
 }
 
