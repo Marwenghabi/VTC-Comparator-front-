@@ -303,23 +303,7 @@ website:    http://www.themepunch.com
 }
 
 
-/* THUMBS */
 
-
-/* TABS */
-
-
-/*-----------------------------------------------------------------------------
-
-- Revolution Slider 5.0 Navigatin Skin Style  -
-
- DIONE SKIN
-
-author:  ThemePunch
-email:      info@themepunch.com
-website:    http://www.themepunch.com
------------------------------------------------------------------------------*/
-/* ARROWS */
 .dione.tparrows {
   height:100%;
   width:100px;
@@ -488,14 +472,7 @@ visibility:visible;
 
 /*-----------------------------------------------------------------------------
 
-- Revolution Slider 5.0 Navigatin Skin Style  -
 
- ERINYEN SKIN
-
-author:  ThemePunch
-email:      info@themepunch.com
-website:    http://www.themepunch.com
------------------------------------------------------------------------------*/
 /* ARROWS */
 .erinyen.tparrows {
   cursor:pointer;
@@ -747,14 +724,14 @@ opacity:1
 .erinyen .tp-tab-title {
     color:#a8d8ee;
     font-size:13px;
-    font-weight:700;
+    font-weight:500;
     text-transform:uppercase;
     font-family:"Roboto Slab"
     margin-bottom:5px;
 }
 
 .erinyen .tp-tab-desc {
-	font-size:18px;
+	font: size 10px;
     font-weight:400;
     color:#fff;
     line-height:25px;
@@ -2098,7 +2075,7 @@ website:    http://www.themepunch.com
     }
     .metis.tp-tabs {
         max-width: 118px !important;
-        padding-left: 50px;
+        padding-left: 30px;
     }
     .metis.tp-tabs:before {
         content: " ";

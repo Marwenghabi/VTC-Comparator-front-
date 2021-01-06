@@ -11,7 +11,7 @@
 
 .rld-single-input.ship-icon:before {
   content: '\f21a';
-  font-size: 18px;
+  font-size: 5px;
   font-family: fontawesome;
   color: #8731E8;
   position: absolute;
@@ -49,7 +49,7 @@
   content: '\f1b9';
   font-size: 18px;
   font-family: fontawesome;
-  color: #8731E8;
+  color: #70499c;
   position: absolute;
   top: 12px;
   background-size: auto;
@@ -126,7 +126,7 @@
   content: '\f015';
   font-size: 18px;
   font-family: fontawesome;
-  color: #8731E8;
+  color: #170d22;
   position: absolute;
   top: 12px;
   background-size: auto;
@@ -144,7 +144,7 @@
   content: '\f024';
   font-size: 18px;
   font-family: fontawesome;
-  color: #8731E8;
+  color: #6d2b39;
   position: absolute;
   top: 12px;
   background-size: auto;
@@ -182,7 +182,7 @@
   content: '\f133';
   font-size: 18px;
   font-family: fontawesome;
-  color: #8731E8;
+  color: #8d718500;
   position: absolute;
   top: 12px;
   background-size: auto;
@@ -224,4 +224,58 @@ ul {
   list-style-type: none;
   margin-top: 4px;
 }
+.partie1 {
+  width: 600px;
+float: left;
+}
+.partie2 {
+  margin-left: 650px;
 
+  background-color: white;
+}
+.img {
+  width: 50px;
+  height:25px;
+}
+.pp1 {
+    margin-height: 5px;
+    border-width:1px;
+    border-style:dotted;
+    border-color:rgb(131, 115, 27);
+    background-color: rgb(151, 110, 22);
+    
+}
+
+
+.example {
+  img {
+    border-radius: 50%;
+  width:100px;
+  height:100px;
+}
+  padding-left:10px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 80%;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
