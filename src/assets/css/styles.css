@@ -839,7 +839,7 @@ a.button,
 }
 
 .homepage-1 .rld-banner-tab .nav-item a {
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .homepage-1 .rld-banner-tab .nav-item a.active:before {
@@ -862,12 +862,12 @@ a.button,
 .homepage-1 .btn.sApp-btn:before,
 .homepage-1 .bg-overlay::after,
 .homepage-1 .benifits-item:after {
-    background: linear-gradient(-47deg, #afefff 0%, #1a6b8b 100%);
+    background: linear-gradient(-47deg,#f3faff 0%,#f6fbff 100%);
 }
 
 .homepage-1 a.btn.btn-yellow:hover {
-    background: rgb(125, 99, 172) !important;
-    color: #8731E8;
+    background: rgb(255, 254, 253) !important;
+    color: #ff9634;
 }
 
 .homepage-1 .bg-overlay:after {
@@ -9893,7 +9893,7 @@ section.visited-cities {
 /*-----------------------------------*/
 
 .first-footer .top-footer {
-    background: rgba(252, 252, 252, 0.98);
+    background: #fcfcfcfa;
     color: rgb(8, 8, 8);
     padding: 6rem 0;
 }
