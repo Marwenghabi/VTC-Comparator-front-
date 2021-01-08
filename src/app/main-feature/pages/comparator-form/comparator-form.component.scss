@@ -225,7 +225,7 @@ ul {
   margin-top: 4px;
 }
 .partie1 {
-width: 650px;
+width: 750px;
 float: left;
 background-color: #DFF2FF;
 
@@ -236,24 +236,25 @@ background-color: #DFF2FF;
 
 }
 .partie2 {
-  margin-left: 650px;
-  width: 700px;
+  margin-left: 750px;
+  width: 520px;
  
   background-color:#DFF2FF;
   height: 900px;
 }
 .partie3 {
   img{
-    width: 700px; 
+    width: 550px; 
     height: 700px;
 
   }
-  margin-left:20px;
-  width: 550px;
-  margin-top: 20px;
+  padding: 60px;
+ // margin-left:00px;
+ // width: 600px;
+ // margin-top: 20px;
  // background-image: url(../../../../assets/images/recherche/photo.jpg);
   
-  height: 700px;
+  //height: 700px;
 }
 
 
@@ -303,7 +304,7 @@ background-color: #DFF2FF;
   display: flex;
   justify-content: center;
 }
-/*.card {
-width: 400px;
-height: 100px;
-}*/
+.hh4 {
+  color: rgb(80, 77, 77);
+  size : 20px ;
+}

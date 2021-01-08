@@ -438,8 +438,8 @@ element.style {}
     list-style: none;
     position: relative;
     float: left;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 25px;
 }
 
 #navigation ul a {
@@ -451,7 +451,7 @@ element.style {}
 #navigation ul li {
     position: relative;
     float: left;
-    margin: 10px;
+    margin: 15px;
     padding: 0
 }
 
