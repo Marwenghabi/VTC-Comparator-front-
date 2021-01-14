@@ -225,34 +225,35 @@ ul {
   margin-top: 4px;
 }
 .partie1 {
-width: 750px;
+  
+width: 720px;
 float: left;
-background-color: #DFF2FF;
-
+//background-color: #DFF2FF;
+display: inline-block;
 }
 .section1{
-
+width: 1200px;
 background-color: #DFF2FF;
-
+display: inline-block;
 }
 .partie2 {
-  margin-left: 750px;
-  width: 520px;
+  margin-left: 680px;
+  width: 1000px;
  
-  background-color:#DFF2FF;
+//  background-color:#DFF2FF;
   height: 900px;
 }
 .partie3 {
   img{
-    width: 550px; 
+    width: 600px; 
     height: 700px;
 
   }
   padding: 60px;
- // margin-left:00px;
- // width: 600px;
- // margin-top: 20px;
- // background-image: url(../../../../assets/images/recherche/photo.jpg);
+  margin-left:00px;
+  width: 650px;
+ margin-top: 10px;
+ 
   
   //height: 700px;
 }

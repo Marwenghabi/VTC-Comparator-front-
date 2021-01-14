@@ -144,7 +144,7 @@
     transition: all 0.2s;
 }
 .nice-select .option:hover {
-    background-color: #238AC1;
+    background-color: #99d2f1;
     color: #fff;
 }
 .nice-select .option.selected {

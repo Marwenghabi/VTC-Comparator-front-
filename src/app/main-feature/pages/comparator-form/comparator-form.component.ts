@@ -13,6 +13,8 @@ import {TripType} from '../../../shared/models/request/TripTypeenum';
 import {TripOptions} from '../../../shared/models/request/TripOptions';
 import {DatePipe} from '@angular/common';
 
+
+
 @Component({
   selector: 'app-comparator-form',
   templateUrl: './comparator-form.component.html',
