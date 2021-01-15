@@ -1,25 +1,11 @@
 <section id="home" class="section welcome-area bg-overlay overflow-hidden">
   <form [formGroup]="searchForm">
+    <div class="section1">
     <div class="hero-main">
       <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="banner-inner">
-              <h1 class="title text-center">
-                Renseignez les informations de votre trajet et sélectionnez votre service
-              </h1>
-              <h5 class="sub-title text-center">
-                Nous vous offrons plusieurs choix avec des options pratiques de tri :<br>
-                Par tarif ; <br>
-                Par type de confort ;<br>
-                Ou par critère d’impact environnemental.<br>
-                Et choisissez parmi nos offres les plus adaptées .
+        <div class="partie1">
 
 
-              </h5>
-            </div>
-
-          </div>
           <div class="col-12">
             <div class="banner-search-wrap">
               <ul class="nav nav-tabs rld-banner-tab">
@@ -28,8 +14,7 @@
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#tabs_12"  
-                 >Aller/Retour</a>
+                  <a class="nav-link" data-toggle="tab" href="#tabs_12">Aller/Retour</a>
                 </li>
               </ul>
 
@@ -62,7 +47,7 @@
                                 <div class="row">
 
                                   <div class="col-4" style="margin-bottom: 10px; ">
-                                    Immédiat ou Plus tard :
+                                  <div class="hh4"> Immédiat ou Plus tard :</div> 
                                   </div>
                                   <div class="col-4" style="margin-bottom: 10px; ">
                                     <label for="volinfoDepartureKnown"> Immédiat &nbsp;</label>
@@ -411,7 +396,7 @@
                       >
                     </div> -->
                                 <div class="col-xl-12 col-lg-14 col-md-12 col-centered">
-                                  <a class="btn btn-yellow" (click)="checkStep1()" style="margin-top: 10px">SUIVANT</a>
+                                  <a class="btn btn-yellow" (click)="checkStep1()" style="margin-top: 10px;">SUIVANT</a>
                                 </div>
                               </div>
                             </div>
@@ -782,8 +767,8 @@
                                 <br />
                                 <div class="row">
                                   <div class="col-12">
-                                    <a class="btn btn-yellow" (click)="search()">SEARCH</a>
-                                    
+
+
                                   </div>
                                 </div>
                               </div>
@@ -792,7 +777,7 @@
                           </div>
                         </div>
                       </div>
-                      
+
                     </div>
                   </div>
                 </div>
@@ -828,7 +813,7 @@
                                 <div class="row">
 
                                   <div class="col-4" style="margin-bottom: 10px; ">
-                                    Immédiat ou Plus tard :
+                                    <div class="hh4"> Immédiat ou Plus tard :</div> 
                                   </div>
                                   <div class="col-4" style="margin-bottom: 10px; ">
                                     <label for="volinfoDepartureKnown"> Immédiat &nbsp;</label>
@@ -1880,18 +1865,14 @@
                                 <br />
 
                                 <br />
-                                <div class="row">
-                                  <div class="col-12">
-                                    <a class="btn btn-yellow" (click)="search()">SEARCH</a>
-                                  </div>
-                                </div>
+
                               </div>
                             </div>
 
                           </div>
                         </div>
                       </div>
-                      
+
                     </div>
                   </div>
                 </div>
@@ -1899,13 +1880,86 @@
 
               </div>
 
-              
+
 
 
             </div>
+            
+            <div clas="col-12">
+              <div class="banner-search-wrap">
+                <div class="pp1">
+                  <div class="center">
+                  <h2>cherchez les meilleurs offres</h2></div>
+                </div>
+
+              </div>
+              <div>
+                <div class="card">
+                  <div class="center">
+                  <h3  >Mes préférences de recherhe</h3></div>
+                <div class="row">
+                  <div class="column">
+                    <div class="example">
+                    <a  (click)="search()">
+                      <img src="../../../../assets/images/recherche/vtc.jpg" >
+                      
+    
+                    </a>
+                    <div class="center">
+                    <h5>VTC</h5></div>
+                    </div>
+                  </div>
+
+
+
+
+                  <div class="column">
+                    <div class="example">
+                      <a (click)="search()">
+                        <img src="../../../../assets/images/recherche/train.jpg">
+
+                        <h5>Transport en commun</h5>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="example">
+                      <a (click)="search()">
+                        <img src="../../../../assets/images/recherche/navette.jpg">
+                        <div class="center">
+                        <h5>Navette</h5></div>
+
+                      </a>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="example">
+                      <a (click)="search()">
+                        <img src="../../../../assets/images/recherche/covoiturage.png">
+                        
+                      </a>
+                    </div>
+                    <div class="center">
+                      <h5>Covoiturage</h5></div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+
           </div>
+
+
+        </div>
+        <div class="partie2">
+          <div class="partie3">
+         
+        
+         <img src="../../../../assets/images/recherche/photo1.png" />
+         </div>
         </div>
       </div>
     </div>
+  </div>
   </form>
 </section>

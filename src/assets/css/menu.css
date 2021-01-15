@@ -10,14 +10,14 @@
 }
 
 #logo img {
-    width: 155px;
-    height: auto;
+    width: 100px;
+    height: 50px;
     transform: translate3d(0, 0, 0);
 }
 
 #logo.logo-white img {
     width: 200px;
-    height: auto;
+    height: 100px;
 }
 
 img.footer-logo {
@@ -43,7 +43,7 @@ img {
 .header-widget {
     position: relative;
     top: -1px;
-    height: 54px;
+    height: 50px;
 }
 
 .header-widget .button,
@@ -55,7 +55,7 @@ img {
 .header-widget .sign-in {
     position: relative;
     top: 10px;
-    color: #333;
+    color: rgb(243, 231, 231);
     margin-right: 25px;
     vertical-align: top;
 }
@@ -117,7 +117,7 @@ header.fullwidth .container {
 ------------------------------------- */
 
 #header-container.top-border {
-    border-top: 4px solid #66676b;
+    border-top: 4px solid #2e4694;
 }
 
 #header-container.header-style-2 .right-side {
@@ -155,6 +155,7 @@ header.fullwidth .container {
     padding-right: 35px;
     line-height: 24px;
     position: relative;
+   
 }
 
 .header-style-2 .header-widget li:after {
@@ -212,7 +213,7 @@ header.fullwidth .container {
     margin-left: 13px;
     line-height: 25px;
     position: relative;
-    top: 3px;
+    top: 10px;
 }
 
 .header-style-2 .header-widget li:last-child {
@@ -369,11 +370,11 @@ a.button {
 }
 
 #navigation.style-1.head-tr .current {
-    color: #fff;
+    color: rgb(29, 26, 26);
 }
 
 #navigation.style-1.head-tr ul li a {
-    color: #fff;
+    color: rgb(29, 27, 27);
 }
 
 #navigation.style-2.cloned .sticky-logo {
@@ -437,8 +438,8 @@ element.style {}
     list-style: none;
     position: relative;
     float: left;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 25px;
 }
 
 #navigation ul a {
@@ -450,7 +451,7 @@ element.style {}
 #navigation ul li {
     position: relative;
     float: left;
-    margin: 0;
+    margin: 15px;
     padding: 0
 }
 
@@ -523,7 +524,7 @@ element.style {}
 }
 
 #navigation ul li a:after:hover {
-    color: #fff;
+    color: rgb(19, 18, 18);
 }
 
 #navigation ul li a:only-child:after {
@@ -540,13 +541,13 @@ element.style {}
 ------------------------------------- */
 
 #navigation ul ul {
-    background-color: #fff;
+    background-color: rgb(31, 28, 28);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
     border-radius: 3px;
 }
 
 #navigation ul ul li {
-    border-bottom: 1px solid #e9e9e9;
+    border-bottom: 1px solid #1b1a1a;
     border-radius: 3px;
 }
 
@@ -562,7 +563,7 @@ element.style {}
 }
 
 #navigation ul ul li:hover {
-    background-color: #f2f2f2 !important;
+    background-color: #2b2727 !important;
     border-radius: 0;
 }
 
@@ -600,7 +601,7 @@ element.style {}
 
 #header.cloned.sticky .current {
     background-color: transparent;
-    color: #707070;
+    color: #272424;
     padding: 5px 15px;
     border-radius: 3px;
 }
@@ -610,11 +611,11 @@ element.style {}
 }
 
 #header.cloned.sticky ul li a {
-    color: #707070;
+    color: #161515;
 }
 
 #header.cloned.sticky ul li:hover a {
-    color: #fff;
+    color: rgb(20, 20, 20);
 }
 
 #navigation.style-1 .current:after {
@@ -632,7 +633,7 @@ element.style {}
 }
 
 #navigation.style-1 ul li:hover a {
-    color: #fff;
+    color: rgb(17, 16, 16);
 }
 
 #navigation.style-1 ul a {
@@ -660,7 +661,7 @@ element.style {}
 }
 
 #header.cloned.sticky .head-tr ul li:hover {
-    color: #fff !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 
@@ -687,14 +688,14 @@ element.style {}
 }
 
 #navigation.style-2 ul li:hover a {
-    color: #fff;
+    color: rgb(31, 29, 29);
 }
 
 #navigation.style-2 ul a {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 32px;
     padding: 13px 20px;
-    color: #fff;
+    color: rgb(14, 12, 12);
     border-radius: 0;
 }
 
@@ -786,7 +787,7 @@ element.style {}
     top: 45px;
     right: 0;
     list-style: none;
-    background-color: #fff;
+    background-color: rgb(14, 13, 13);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     display: inline-block;
@@ -871,14 +872,14 @@ element.style {}
 
 #navigation.black ul a {
     display: block;
-    color: #fff;
+    color: rgb(14, 13, 13);
     text-decoration: none;
 }
 
 #navigation.style-1.black .current {
     background-color: transparent;
-    color: #fff;
-    padding: 5px 15px;
+    color: rgb(12, 11, 11);
+    padding: 10px 15px;
     border-radius: 3px;
 }
 
@@ -893,12 +894,12 @@ element.style {}
 
 #navigation.style-1.white .current {
     background-color: #c18847;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.007);
 }
 
 #navigation.style-1.white ul li:hover {
     background-color: #c18847;
-    color: #fff;
+    color: rgb(15, 15, 15);
 }
 
 @media (max-width: 575px) {
@@ -1297,12 +1298,12 @@ li.mm-vertical.mm-opened>.mm-panel {
 .mm-menu {
     background: #2a2a2a;
     border-color: rgba(255, 255, 255, 0.1);
-    color: #fff;
+    color: rgb(19, 18, 18);
 }
 
 .mm-menu .mm-navbar a,
 .mm-menu .mm-navbar>* {
-    color: #fff;
+    color: rgb(27, 23, 23);
     text-transform: uppercase;
     font-weight: 400;
     font-size: 13px;
@@ -1310,7 +1311,7 @@ li.mm-vertical.mm-opened>.mm-panel {
 
 .mm-menu .mm-btn:after,
 .mm-menu .mm-btn:before {
-    border-color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(31, 29, 29, 0.8);
 }
 
 .mm-menu .mm-listview {
@@ -1318,7 +1319,7 @@ li.mm-vertical.mm-opened>.mm-panel {
 }
 
 .mm-menu .mm-listview>li .mm-next:after {
-    border-color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(36, 34, 34, 0.8);
 }
 
 .mm-menu .mm-listview>li a:not(.mm-next) {
@@ -1510,7 +1511,7 @@ em.mm-counter+a.mm-fullsubopen+span {
     width: 22px;
     text-align: center;
     border-radius: 50%;
-    color: #fff;
+    color: rgb(27, 23, 23);
     line-height: 23px;
     font-size: 11px;
     font-weight: 500;
@@ -1525,7 +1526,7 @@ em.mm-counter+a.mm-fullsubopen+span {
     display: none;
     position: relative;
     margin: 0 0 23px 0;
-    background-color: #eee;
+    background-color: rgb(15, 14, 14);
     border-radius: 4px;
     cursor: pointer;
 }
@@ -1779,7 +1780,7 @@ transform: rotate(-90deg);
 
     #header-container.header-style-2 .header-widget {
         width: calc(100%);
-        border-top: 1px solid #e0e0e0;
+        border-top: 1px solid #917878;
         padding-top: 30px;
     }
 }

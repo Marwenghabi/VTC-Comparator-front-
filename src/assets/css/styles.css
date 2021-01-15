@@ -95,8 +95,9 @@ body {
     font-family: 'Asap', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #666;
+    color: rgb(253, 243, 243);
     overflow-x: hidden !important;
+    
 }
 
 p {
@@ -106,6 +107,7 @@ p {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
+    color: #222;
     font-weight: 800;
     margin-bottom: 2rem;
     text-transform: uppercase;
@@ -113,7 +115,7 @@ h1 {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #222;
+    color: rgb(255, 255, 255);
     font-size: 26px;
     font-weight: 600;
     text-transform: uppercase;
@@ -127,19 +129,20 @@ h2 span {
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
-    color: #fff;
+      color: rgb(12, 13, 14);
     font-weight: 600;
 }
 
 h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    color: #444;
+    color: rgb(0, 0, 0);
     font-weight: 600;
 }
 
 h5 {
-    color: #444;
+    font-size: 0.8rem;
+    color: rgb(12, 12, 12);
 }
 
 .top-headings-section {
@@ -150,7 +153,7 @@ h5 {
     margin-left: auto;
     margin-right: auto;
     font-weight: 400;
-    color: #555;
+    color: rgb(14, 13, 13);
     max-width: 550px;
 }
 
@@ -202,7 +205,7 @@ h5 {
 img {
     display: inline-block;
     max-width: 100%;
-    height: auto;
+    height: 500px;
 }
 
 a,
@@ -268,7 +271,7 @@ button {
 
 .header-top {
     background: #fa2964;
-    color: #7f8997;
+    color: #222324;
     display: block;
     padding: 1rem 0;
 }
@@ -296,7 +299,7 @@ button {
 
 .header-top.head-2 .top-social .login-wrap ul li a:hover,
 .header-top.head-2 .dropdown button:hover {
-    color: #fff;
+    color: rgb(26, 25, 25);
 }
 
 .header.head-tr {
@@ -305,17 +308,17 @@ button {
 }
 
 .header-top.head-tr {
-    background: rgba(255, 255, 255, 0.06);
-    color: #7f8997;
+    background: rgb(31, 31, 31);
+    color: #185592;
     display: block;
     padding: 1rem 0;
 }
 
 .heading.head-tr {
-    background: rgba(255, 255, 255, 0.06);
-    color: #fff;
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgb(51, 49, 49);
+    color: rgb(26, 23, 23);
+    border-top: 1px solid rgba(37, 36, 36, 0.466);
+    border-bottom: 1px solid rgb(26, 25, 25);
     position: relative;
     padding: 1rem 0;
     -webkit-transition: all .5s ease;
@@ -350,7 +353,7 @@ button {
 
 .header-top p {
     margin-right: 2rem;
-    color: #fff;
+    color: rgb(44, 34, 34);
     font-size: 13px;
     font-weight: 400;
     margin-bottom: 0px;
@@ -466,7 +469,7 @@ button {
 }
 
 .header-top .dropdown-menu li {
-    color: #333;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     padding: 5px 10px;
 }
@@ -476,7 +479,7 @@ button {
 }
 
 .heading {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgb(255, 255, 255);
     color: #fff;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -487,7 +490,8 @@ button {
 }
 
 .sticky,
-.sticky.head-tr {
+.sticky.
+ {
     -webkit-animation: 600ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 600ms ease-in-out 0s normal none 1 running fadeInDown;
     background: #121B22 none repeat scroll 0 0;
@@ -726,20 +730,20 @@ button {
 /*---------------------------------------*/
 
 .homepage-1 {
-    background: transparent;
+    background: rgb(27, 27, 27);
     border: 0px;
 }
 
 .head-tr.bottom {
-    background: #8731E8;
+    background: #ffffff;
     border: 0px;
 }
 
 .homepage-1 a.button.border,
 a.button,
 .homepage-4 .header-image .left .btn-white {
-    background: #fff;
-    color: #8731E8 !important;
+    background: rgb(58, 58, 58);
+    color: #d47a45 !important;
 }
 
 .homepage-1 .rec-pro-1 .container-fluid {
@@ -747,12 +751,12 @@ a.button,
 }
 
 .homepage-1 #navigation.style-1 ul li:hover {
-    background: #8731E8;
+    background: #e29c4c;
 }
 
 .homepage-1 .welcome-area {
     /* background: rgba(0, 0, 0, 0) url(../images/bg/people.jpg) no-repeat scroll center center/cover; */
-    background: rgba(0, 0, 0, 0) url(../images/bg/bg-inner.jpg) no-repeat scroll center center/cover;
+    background: rgba(150, 221, 221, 0)  no-repeat scroll center center/cover;
   }
 
 /* .homepage-1 .welcome-area {
@@ -818,7 +822,7 @@ a.button,
 }
 
 .homepage-1 .hero-main {
-    padding: 200px 0;
+    padding: 100px 0;
 }
 
 .homepage-1 .rld-main-search {
@@ -835,13 +839,13 @@ a.button,
 }
 
 .homepage-1 .rld-banner-tab .nav-item a {
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .homepage-1 .rld-banner-tab .nav-item a.active:before {
     content: "";
-    height: 18px;
-    margin-left: 7px;
+    height: 15px;
+    margin-left: 5px;
     position: absolute;
     top: 40px;
     width: 20px;
@@ -858,12 +862,12 @@ a.button,
 .homepage-1 .btn.sApp-btn:before,
 .homepage-1 .bg-overlay::after,
 .homepage-1 .benifits-item:after {
-    background: linear-gradient(-47deg, #4528DC 0%, #8731E8 100%);
+    background: linear-gradient(-47deg,#8731E8 0%,#786afa 100%);
 }
 
 .homepage-1 a.btn.btn-yellow:hover {
-    background: #fff !important;
-    color: #8731E8;
+    background: rgb(255, 254, 253) !important;
+    color: #ffffff;
 }
 
 .homepage-1 .bg-overlay:after {
@@ -878,7 +882,7 @@ a.button,
 }
 
 .homepage-1 .slick-dots li {
-    -webkit-box-shadow: inset 0 0 0 2px #8731E8;
+    -webkit-box-shadow: inset 0 0 0 2px #252222;
     box-shadow: inset 0 0 0 2px #8731E8;
 }
 
@@ -959,7 +963,7 @@ a.button,
     text-align: center;
     color: #fff;
     margin-top: 10px;
-    font-weight: 400;
+    font-weight: 100;
     display: block;
 }
 
@@ -983,13 +987,13 @@ a.button,
 
 section.featured.rec-pro {
     padding: 6rem 0;
-    background: #963aff !important;
+    background: #2c2b2e !important;
 }
 
 .homepage-1 .small-category-2 {
     background: #8731E8;
     border-radius: 8px;
-    border: 1px solid #ebebeb;
+    border: 1px solid #302b2b;
     overflow: hidden;
     margin-bottom: 30px;
     -webkit-box-align: center;
@@ -1009,7 +1013,7 @@ section.featured.rec-pro {
     width: 170px;
     float: left;
     display: table;
-    height: 150px;
+    height: 100px;
     background: #fff;
     padding: 0px;
     border-radius: 50%;
@@ -1032,7 +1036,7 @@ section.featured.rec-pro {
 
 .homepage-1 h4.sc-jb-title a {
     font-size: 16px;
-    color: #555;
+    color: rgb(26, 25, 25);
     font-weight: 400;
     text-decoration: none;
     -webkit-transition: all .3s ease;
@@ -1086,7 +1090,7 @@ section.featured.rec-pro {
 .homepage-1 .sec-title.discover h2 span,
 .homepage-1 .sec-title.discover h2,
 .homepage-1 .sec-title.discover p {
-    color: #fff;
+    color: rgb(46, 38, 38);
 }
 
 .rec-pro.disc .slick-dots li.slick-active,
@@ -1191,7 +1195,7 @@ section.featured.rec-pro {
 }
 
 .homepage-1 .popular-places .listing-badges span {
-    color: #fff;
+    color: rgb(20, 19, 19);
     display: inline-block;
     padding: 1px 10px;
     float: right;
@@ -1215,7 +1219,7 @@ section.featured.rec-pro {
 
 .homepage-1 .popular-places .img-box-content h4 {
     line-height: 36px;
-    color: #fff;
+    color: rgb(26, 24, 24);
     margin: 0;
     font-size: 20px;
 }
@@ -1341,6 +1345,8 @@ section.featured.rec-pro {
 .homepage-1 .first-footer .netsocials a .fa-youtube {
     color: #8731E8;
 }
+
+
 
 .homepage-1 .popular .homes-content h3:hover,
 .homepage-1 .blog-section .news-item h3:hover,
@@ -1638,7 +1644,7 @@ section.featured.rec-pro {
 .homepage-2 a.button.border,
 a.button,
 .homepage-2 .header-image .left .btn-white {
-    background: #fff;
+    background: rgb(32, 32, 32);
     color: #6449E7 !important;
 }
 
@@ -3160,10 +3166,10 @@ section.popular.portfolio {
 
 .popular .footer {
     background: none;
-    border-top: 1px solid #ebebeb;
+    border-top: 1px solid #f1ebeb;
     padding-top: 1rem;
     font-size: 14px;
-    color: #666;
+    color: rgb(255, 255, 255);
 }
 
 .popular .footer img {
@@ -3205,7 +3211,7 @@ section.popular.portfolio {
 }
 
 .popular .footer a {
-    color: #666;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -6289,7 +6295,7 @@ a.button {
 .int_dark_bg .first-footer .bloq-email .email input[type="email"],
 .int_dark_bg .first-footer .bloq-email .email input[type="submit"] {
     border: 1px solid #c18847;
-    background: #282d32;
+    background: #fdfeff;
     color: #fff;
 }
 
@@ -7308,7 +7314,7 @@ section.portfolio {
     background: #fff;
     color: #000;
     font-family: var(--heading-font);
-    font-weight: 600;
+    font-weight: 500;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
@@ -9364,7 +9370,7 @@ section.visited-cities {
     display: inline-block;
     margin-right: 14px;
     font-size: 14px;
-    color: #666;
+    color: rgb(255, 255, 255);
     font-weight: 400;
 }
 
@@ -9887,8 +9893,8 @@ section.visited-cities {
 /*-----------------------------------*/
 
 .first-footer .top-footer {
-    background: rgba(18, 27, 34, 0.98);
-    color: #fff;
+    background: #fcfcfcfa;
+    color: rgb(8, 8, 8);
     padding: 6rem 0;
 }
 
@@ -9925,7 +9931,7 @@ section.visited-cities {
 .first-footer .netabout p {
     margin-bottom: 2rem;
     font-weight: 400;
-    color: #fff;
+    color: rgb(32, 29, 29);
 }
 
 .first-footer .netsocials {
@@ -9992,7 +9998,7 @@ section.visited-cities {
 
 .first-footer h3 {
     margin-bottom: 2rem;
-    color: #fff;
+    color: rgb(24, 22, 22);
 }
 
 .first-footer .contactus h3::after {
@@ -10031,7 +10037,7 @@ section.visited-cities {
 .first-footer .contactus .info p {
     margin: 0px;
     font-size: .9rem;
-    color: #fff;
+    color: rgb(26, 24, 24);
     margin-left: 1rem;
     line-height: 1.1;
     font-weight: 300;
@@ -10071,7 +10077,7 @@ section.visited-cities {
 .widget.quick-link ul li a {
     padding-left: 0px;
     padding-bottom: .9rem;
-    color: #fff;
+    color: rgb(24, 23, 23);
     text-decoration: none;
     display: block;
     -webkit-transition: all .5s ease;
@@ -10087,7 +10093,7 @@ section.visited-cities {
     font-family: "FontAwesome";
     font-size: 16px;
     padding-right: 1rem;
-    color: #fff;
+    color: rgb(27, 27, 27);
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
@@ -10188,7 +10194,7 @@ section.visited-cities {
 
 .newsletters p {
     margin-bottom: 2rem;
-    color: #fff;
+    color: rgb(32, 32, 32);
     font-weight: 300;
 }
 
@@ -15653,7 +15659,7 @@ section.ui-element {
 
 .ui-elements table.basic-table th,
 .ui-elements table.basic-table td {
-    padding: 15px 28px;
+    padding: 10px 20px;
 }
 
 .ui-elements table.basic-table tr:nth-child(odd) {
