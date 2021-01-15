@@ -17,6 +17,7 @@ import { NgxSpinnerModule } from "ngx-spinner";
 import { TimePipe } from '../pipes/time.pipe';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { OffersFullListComponent } from './ui-segments/offers-full-list/offers-full-list.component';
+import { OffresCommunComponent } from './ui-segments/offres-commun/offres-commun.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { OffersFullListComponent } from './ui-segments/offers-full-list/offers-f
     FiltersComponent,
     MapsComponent,
     TimePipe,
-    OffersFullListComponent
+    OffersFullListComponent,
+    OffresCommunComponent,
   ],
   imports: [
     CommonModule,

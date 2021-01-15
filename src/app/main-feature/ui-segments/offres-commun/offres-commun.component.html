@@ -1,0 +1,79 @@
+<section class="listings-list popular full featured portfolio blog">
+    <div class="container">
+    
+        <div class="pp1">
+        <ngx-spinner bdColor bdColor="rgba(0, 0, 0, 0.8)" size="medium" color="#fff" type="timer" [fullScreen]="true">
+          <p style="color: white">Loading...</p>
+        </ngx-spinner>
+        <br/>
+          <agm-map [style.height.px]="590" [style.padding.px]="100" [style.width.px]="500" [latitude]="departureLocation?.latitude || 48.8534"
+            [longitude]="departureLocation?.longitude || 2.3488">
+            <agm-marker [latitude]="departureLocation?.latitude" [longitude]="departureLocation?.longitude" [label]="'D'">
+            </agm-marker>
+            <agm-marker [latitude]="arrivalLocation?.latitude" [longitude]="arrivalLocation?.longitude" [label]="'A'">
+            </agm-marker>
+          </agm-map>
+        </div>
+        
+        <br/> <br/>
+        <div *ngIf="offers.length > 0; then offersExists; else noOffers"></div>
+  
+        <ng-template #offersExists>
+        <div class="partie1">
+            <div class="property-location mp">
+              <div class="departments-details">
+  
+                <div class="kl">
+                  <img src=" ../../../../assets/images/recherche/Capture-vtc.PNG" />
+                </div>
+             
+                  <h5>Trip Details</h5>
+                  <div class="row">
+                    <div class="col-md-12 dep-list-1">
+                     
+                      <div class="depart-list">
+                        <ul class="mt-4 ml-4 mb-0">
+                          <li>Lieu de départ</li>
+                          <li>Lieu d'arrivée</li>
+                          <li>Date de départ</li>
+                          <li>Temps estimé</li>
+                          <li>Distance estimée</li>
+                        </ul>
+                        <ul class="mt-4 mr-4 mb-0">
+                          <li>{{ departureLocation.address }}</li>
+                          <li>{{ arrivalLocation.address }}</li>
+                          <li>{{ date | date: "medium" }}</li>
+                          <li>{{ estimatedTime | time }}</li>
+                          <li>{{ estimatedDistance }} Km</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+        </div>
+        <br/> <br/>
+         
+        </ng-template>
+  
+        <ng-template #noOffers>
+          <div class="partie1">
+          <div class="notification notice" *ngIf="!loading">
+            <p>
+              Nous n’avons pas pu trouver des offres . Essayez de modifier les
+              paramètres de votre recherche..
+            </p>
+            <a class="close"></a>
+  
+            <a href="#">
+              <span class="box">
+                <i class="fas fa-plane"></i>
+                <span>Travel</span>
+              </span>
+            </a>
+          </div></div>
+        </ng-template>
+      </div>
+   
+  </section>

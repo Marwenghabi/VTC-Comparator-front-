@@ -3,7 +3,7 @@ import { RouterModule, Routes } from "@angular/router";
 import { ComparatorFormComponent } from "./pages/comparator-form/comparator-form.component";
 import { ComparatorOffersComponent } from "./pages/comparator-offers/comparator-offers.component";
 import { OffersFullListComponent } from "./ui-segments/offers-full-list/offers-full-list.component";
-
+import {OffresCommunComponent} from "./ui-segments/offres-commun/offres-commun.component";
 
 const mainRoutes: Routes = [
   {
@@ -15,10 +15,15 @@ const mainRoutes: Routes = [
     component: ComparatorOffersComponent,
   },
 
-  /*{
-    path: 'offer-details',
-    component: ComparatorOfferDetailsComponent
-  },*/
+ 
+  {
+    path: 'offer-fulllist',
+    component:  OffersFullListComponent,
+  },
+  {
+    path: 'offer-commun',
+    component:  OffresCommunComponent,
+  },
   {
     path: "info",
     loadChildren: () =>
