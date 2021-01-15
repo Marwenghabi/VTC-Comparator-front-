@@ -1,6 +1,10 @@
 .partie1{
-
+    padding: 10px;
+position: absolute;
 background:white  ; 
+margin-left: 550px;
+line-height: normal;
+top: 0%;
 }
 /*.partie2{
  img{
@@ -14,7 +18,9 @@ height: 400px;
 }*/
 
 .section1{
-   // padding: 10px;
+   width: 500px;
+   height: 500px;
+   position: left;
 }
 .partie2{
     padding: 0px;
@@ -26,9 +32,15 @@ height: 400px;
    height: 200px;}
 }
 .pp1{
-    width: 500px;
+    position: relative;
+    width: 600px;
+    //height: 1px;
+    padding: 0px;
+    top: 0%;
+
 }
 .pp2{
     margin-left: 500px;
     background: white;
+    height: none;
 }

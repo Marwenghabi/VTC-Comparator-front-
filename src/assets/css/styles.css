@@ -127,7 +127,7 @@ h2 span {
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
-    color: #fff;
+    color: rgb(24, 22, 22);
     font-weight: 600;
 }
 
@@ -744,6 +744,7 @@ a.button,
 
 .homepage-1 .rec-pro-1 .container-fluid {
     max-width: 1560px;
+    
 }
 
 .homepage-1 #navigation.style-1 ul li:hover {
@@ -756,10 +757,10 @@ a.button,
     background-color: #DFF2FF;
   }
 
-/* .homepage-1 .welcome-area {
+.homepage-1 .welcome-area {
     height: 840px;
     z-index: 1;
-} */
+} 
 
 .homepage-1 .welcome-area {
   height: 1000px;

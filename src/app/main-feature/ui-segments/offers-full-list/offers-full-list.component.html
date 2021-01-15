@@ -5,8 +5,8 @@
       <ngx-spinner bdColor bdColor="rgba(0, 0, 0, 0.8)" size="medium" color="#fff" type="timer" [fullScreen]="true">
         <p style="color: white">Loading...</p>
       </ngx-spinner>
-      
-        <agm-map [style.height.px]="500" [latitude]="departureLocation?.latitude || 48.8534"
+      <br/>
+        <agm-map [style.height.px]="590" [style.padding.px]="100" [style.width.px]="500" [latitude]="departureLocation?.latitude || 48.8534"
           [longitude]="departureLocation?.longitude || 2.3488">
           <agm-marker [latitude]="departureLocation?.latitude" [longitude]="departureLocation?.longitude" [label]="'D'">
           </agm-marker>
@@ -15,7 +15,7 @@
         </agm-map>
       </div>
       
-      <br />  <br />  <br />
+      <br/> <br/>
       <div *ngIf="offers.length > 0; then offersExists; else noOffers"></div>
 
       <ng-template #offersExists>
@@ -53,7 +53,7 @@
             </div>
           </div>
       </div>
-
+      <br/> <br/>
         <div *ngIf="immediate" class="row">
           <div class="col-lg-3 col-md-6 col-sm-6" style="display: flex; justify-content: center">
             <a class="btn btn-yellow" style="margin: 5px; width: 60%" (click)="orderByDelay()">Délais</a>
@@ -253,6 +253,7 @@
       </ng-template>
 
       <ng-template #noOffers>
+        <div class="partie1">
         <div class="notification notice" *ngIf="!loading">
           <p>
             Nous n’avons pas pu trouver des offres . Essayez de modifier les
@@ -266,7 +267,7 @@
               <span>Travel</span>
             </span>
           </a>
-        </div>
+        </div></div>
       </ng-template>
     </div>
  
